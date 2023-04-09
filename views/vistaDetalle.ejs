@@ -1,0 +1,15 @@
+
+<%- include('./templates/head')  %>     
+
+<%- include('./templates/nav')  %> 
+
+    <section class="detalle">
+        <h2><%= articuloEncontrado.title %></h2>
+        <img src="<%= articuloEncontrado.image %>" alt="">
+        <h3><%= articuloEncontrado.extracto %></h3>
+        <p><%= articuloEncontrado.descripcion %></p>
+    </section>
+
+
+
+<%- include('./templates/footer')  %> 
