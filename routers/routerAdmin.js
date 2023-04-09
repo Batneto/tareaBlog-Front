@@ -4,7 +4,7 @@ const router = express.Router();
 const{mostrarArticulos,actualizar,crear,formActualizar,formCrear,eliminando}=require('../controllers/adminControllers')
 // const {validarJwtAdmin} = require('../middleware/validarJwt')
 const upload = require('../middleware/upload');
-
+const {validarJwt} = require('../middleware/validarJwt')
 
 
 router.get('/',mostrarArticulos)
@@ -14,6 +14,7 @@ router.get('/',mostrarArticulos)
 
 router.get('/crearArticulo',formCrear)
 router.post('/crearArticulo',[upload],crear)
+
 
 //* ACTUALIZAR PELICULA
 
