@@ -10,6 +10,5 @@ JWT_SECRET_KEY
 
 admin 
 
-pepe
-pepe@gmail.com
-1234
+juan@gmail.com
+juan1234
