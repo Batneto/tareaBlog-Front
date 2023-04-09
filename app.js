@@ -35,6 +35,7 @@ conexion()
 //* RUTAS
 
 app.use('/',require('./routers/routerFront'))
+app.use('/', require('./routers/routerLogin'));
 app.use('/admin',require('./routers/routerAdmin'))
 
 

@@ -2,8 +2,6 @@ const jwt = require('jsonwebtoken')
 
 const cookieParser = require('cookie-parser')
 
-
-
 const validarJwt = (req, res, next) => {
     
        

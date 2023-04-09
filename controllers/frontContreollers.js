@@ -116,8 +116,9 @@ const busqueda=async(req,res)=>{
 module.exports = {
     getIndex,
     detalle,
+    busqueda,
     login,
     comprobarLogin,
-    busqueda
+    
 
   }
